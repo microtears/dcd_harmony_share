@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>
+			鸿蒙应用分享-懂车帝</title>
+
+		<link rel="stylesheet" href="../dist/reveal.css" />
+		<link rel="stylesheet" href="../dist/theme/white.css" id="theme" />
+
+		<!-- <link rel="stylesheet" href="../plugin/highlight/monokai.css" /> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/a11y-light.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<img class="logo" src="data:image/png;base64,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"/>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+				<section
+					data-markdown="markdown.md"
+					data-separator="^---\n"
+					data-separator-vertical="^--\n"
+					data-transition="slide"
+				>
+				</section>
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/math/math.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				margin: 0.1,
+				help: true,
+				navigationMode: "linear",
+				// showSlideNumber: "all",
+				// slideNumber: true,
+				autoAnimateEasing: 'ease-in-out',
+				autoAnimateDuration: 0.4,
+				// view: 'scroll',
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX],
+			});
+		</script>
+	</body>
+</html>
