@@ -6,6 +6,8 @@
 
 ## 业务&技术实践
 
+懂车帝应用内路由演变
+
 ---
 
 ### 鸿蒙路由方案能力对比
@@ -74,7 +76,7 @@ pluginContext.registerTask({
 
 --
 
-```typescript [2-8]
+```typescript [4]
 // AUTO-GENERATED FILE. DO NOT MODIFY!
 function importAll() {
   // routeName: about_dcd
@@ -505,8 +507,6 @@ Note:
 ---
 
 ## 后续规划
-
----
 
 路由参数自动解析
 
